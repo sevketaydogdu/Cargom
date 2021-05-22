@@ -3,7 +3,12 @@ import { TouchableOpacity } from "react-native";
 
 import { StyleSheet, Text, View, ImageBackground } from "react-native";
 import { useNavigation } from "@react-navigation/native";
+<<<<<<< HEAD
 import COLORS from "../constans/colors";
+=======
+
+import COLORS  from '../components/colors';
+>>>>>>> e7e32b9fc83a651bc94fd3d18611db442d069c31
 
 const SplashhScreen = () => {
   const navigation = useNavigation();
@@ -39,6 +44,10 @@ export default SplashhScreen;
 const styles = StyleSheet.create({
   btnKayit: {
     backgroundColor: COLORS.primary,
+<<<<<<< HEAD
+=======
+    // backgroundColor: "#41D5FB",
+>>>>>>> e7e32b9fc83a651bc94fd3d18611db442d069c31
     width: "35%",
     borderRadius: 10,
     padding: 10,
